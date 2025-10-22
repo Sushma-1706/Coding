@@ -1,3 +1,5 @@
+package Coding.src;
+
 import java.util.Scanner;
 
 public class Find_quardents {
