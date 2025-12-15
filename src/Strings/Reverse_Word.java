@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 class Reverse_word {
     public static String reverseWords(String s) {
-        // Step 1: Split using dot
+
         String[] arr = s.split("\\.");
 
         // Step 2: Filter empty words and store valid ones
@@ -18,10 +18,10 @@ class Reverse_word {
             }
         }
 
-        // Step 3: Reverse the list
+
         Collections.reverse(words);
 
-        // Step 4: Join using a single dot
+
         return String.join(".", words);
     }
 
