@@ -11,6 +11,7 @@ public class Armstrong_number {
             rev+=Math.pow(n%10,len);
             n/=10;
         }
+        System.out.println(rev);
         if (rev==num){
             System.out.println(num+" is an Armstrong");
         }else{
