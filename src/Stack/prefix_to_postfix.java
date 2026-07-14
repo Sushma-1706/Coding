@@ -1,4 +1,4 @@
-package Coding.src.Arrays.Stack;
+package Coding.src.Stack;
 import java.util.*;
 
 public class prefix_to_postfix {

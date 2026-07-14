@@ -1,4 +1,4 @@
-package Coding.src.Arrays.Stack;
+package Coding.src.Stack;
 import java.util.*;
 class stack_methods {
     static int max = 100;

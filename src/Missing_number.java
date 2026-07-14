@@ -11,17 +11,17 @@ public class Missing_number {
             arr[i] = sc.nextInt();
 
         }
-        for (int i = 0; i < n; i++) {
-            System.out.println(arr[i]);
-
-        }
+//        for (int i = 0; i < n; i++) {
+//            System.out.println(arr[i]);
+//
+//        }
         System.out.println("Missing Number");
         int result = Missingnumber(arr);
         System.out.println(result);
     }
        public static int Missingnumber(int []arr){
         int n = arr.length;
-        int sum = (n*(n+1)/2);
+        int sum = (arr[n-1]*(arr[n-1]+1)/2);
         int arr_sum=0;
         for(int i=0;i<arr.length;i++ ){
             arr_sum +=arr[i];
